@@ -1,0 +1,289 @@
+body{
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    height: 10vh;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.9);
+}
+
+header, header .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    font-size: 17px;
+    font-weight: bold;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* main{
+    text-align: justify;
+} */
+
+#logo{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#current, li:hover{
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+#welcome{
+    color: rgb(182, 182, 182);
+    font-size: 20px;
+    height: 50vh;
+    background-image: url(../images/washing_machine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome-content button{
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+}
+
+.welcome-content p{
+    font-style: italic;
+}
+
+.content{
+    width: 90%;
+    margin: auto;
+}
+
+.welcome-content *{
+    margin: 0;
+    padding: 0;
+}
+
+#home-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+#home-content div{
+    padding-right: 20px;
+    flex: 1;
+}
+
+#book-now input, #book-now textarea{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#book-now div:first-of-type{
+    max-width: 30%;
+}
+
+#book-now div:last-of-type{
+    max-width: 30%;
+}
+
+#book-now{
+    background-image: url(../images/maxresdefault.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+.we-do{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: rgba(145, 145, 145, 0.1);
+    padding: 0 20px 20px 20px;
+}
+
+.we-do div{
+    margin-right: 10px;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+.services div{
+    margin: 20px 20px;
+    padding: 3px 20px;
+    border-radius: 10px;
+    background-color: rgba(145, 145, 145, 0.1);
+}
+
+.team{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.profile{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+}
+
+.profile h4{
+    margin: 0;
+    margin-top: 25px;
+}
+
+.profile-img{
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.img-1{
+    background-image: url(../images/71WRdVDA+cL._AC_SL1191_.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-2{
+    background-image: url(../images/815299e6-cdb3-4a47-bd47-49db5f4d3b0f.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.s-image{
+    border: 0px solid rgba(255, 255, 255, 0.2);
+    width: 300px;
+    height: 200px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.s-image-1{
+    background-image: url(../images/machinewash.jpeg);
+    background-size: cover;
+}
+
+.s-image-2{
+    background-image: url(../images/drycleaning.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.s-image-3{
+    background-image: url(../images/steam.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.s-image-4{
+    background-image: url(../images/capert.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.cover{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cover-2{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(255, 255, 255, 0.6);
+}
+
+footer{
+    font-size: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 30vh;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+footer h3, footer h4{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+footer h4{
+    margin: 0px;
+    padding: 0px;
+}
+
+#brand p{
+    margin: 0;
+    padding: 5px 0px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+#copy-right{
+    font-size: 10px;
+    color: gray;
+    float: right;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact div:first-of-type{
+    flex: 1;
+}
+
+.contact div:last-of-type{
+    margin-left: 100px;
+    flex: 2;
+}
+
+.contact input{
+    width: 94%;
+}
+
+input, button, textarea{
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 3px;
+    padding: 6px 10px;
+    outline: none;
+}
+
+.welcome-content button, button:hover{
+    cursor: pointer;
+}
+
+footer input, footer button{
+    border: 1px solid white;
+}
